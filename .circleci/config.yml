@@ -53,3 +53,4 @@ workflows:
       - say-hello
       - print-hello
       - print-world
+      - print_my_name
