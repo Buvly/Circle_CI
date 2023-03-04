@@ -42,7 +42,7 @@ jobs:
       - checkout
       - run:
           name: "print_my_name"
-          command: "echo &MY_NAME"
+          command: echo $MY_NAME 
 
 
 # Invoke jobs via workflows
